@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>DPP_SESI-13</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14597,88 +14597,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2>Pengertian</h2>
-<ol>
-    <li>Fungsi pada python adalah kumpulan perintah atau baris kode yang dikelompokkan menjadi satu kesatuan untuk kemudian bisa dipanggil atau digunakan berkali-kali.</li>
-    <li>Sebuah fungsi dapat menerima parameter, dapat mengembalikan suatu nilai, dan dapat dipanggil berkali-kali secara independen.</li>
-</ol>
-<hr>
-<h2>Keuntungan</h2>
-<ol>
-    <li>Membagi kode program menjadi bagian-bagian kecil dengan tugasnya masing-masing.</li>
-    <li>Membuat kode program menjadi lebih “reusable” dan lebih terstruktur.</li>
-</ol>
-<hr>
-<h2>Sintaks</h2>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">():</span>
-    <span class="n">Logic</span> <span class="n">Program</span>
-</pre></div>
-<p>Cara memanggil fungsi dengan menuliskan function_name diikuti kurung buka tutup () beserta parameter jika ada</p>
-<div class="highlight"><pre><span></span><span class="n">function_name</span><span class="p">()</span>
-</pre></div>
-<hr>
-Buatlah fungsi dengan nama "helloPython" yang berfungsi untuk mencetak "Welcome in Python Language"
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">helloPython</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Welcome in Python &quot;</span><span class="p">)</span>
-
-<span class="n">helloPython</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Welcome in Python 
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1>Fungsi dengan parameter</h1>
-Sebuah fungsi dapat menerima parameter ataupun argumen yang merupakan suatu nilai/variabel yang dilemparkan ke dalam fungsi untuk diproses lebih lanjut.
-<h2>Sintaks</h2>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">param</span><span class="p">):</span>
-    <span class="n">Logic</span> <span class="n">Program</span>
-</pre></div>
-<p>Cara memanggil fungsi dengan menuliskan function_name diikuti kurung buka tutup () beserta parameter</p>
-<div class="highlight"><pre><span></span><span class="n">function_name</span><span class="p">(</span><span class="n">param</span><span class="p">)</span>
-</pre></div>
-<hr>
 
 </div>
 </div>
@@ -14690,12 +14608,20 @@ Sebuah fungsi dapat menerima parameter ataupun argumen yang merupakan suatu nila
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Buatlah fungsi dengan nama &quot;fullName&quot; yang mempunyai parameter &quot;firstname&quot; dan &quot;lastname&quot; digunakan untuk mencetak &quot;firstname&quot; dan &quot;lastname&quot;</p>
+<p>1.Kapan pengecualian bawaan berikut dimunculkan? Berikan contoh untuk mendukung jawaban Anda. (score = 70)
+A. ImportError
+    ImportError adalah exception yang terjadi dimana module yang di import tidak.</p>
+<p>B. IOError
+    IOError akan muncul ketika file yang kita coba akses tidak ada di dalam system</p>
+<p>C. NameError
+    NameError adalah exception yang terjadi saat kode mengeksekusi terhadap local name atau global name yang tidak terdefinisi. Misalnya saat menjumlahkan variabel yang tidak didefinisikan, memanggil function yang tidak ada, dan lain-lain</p>
+<p>D. ZeroDivisionError
+    Exception yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14703,10 +14629,11 @@ Sebuah fungsi dapat menerima parameter ataupun argumen yang merupakan suatu nila
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fullName</span><span class="p">(</span><span class="n">firstname</span><span class="p">,</span><span class="n">lastname</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">firstname</span><span class="p">,</span><span class="n">lastname</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#A. ImportError</span>
+<span class="kn">from</span> <span class="nn">module_cek_upper</span> <span class="kn">import</span> <span class="n">yahahawahyu</span>
 
-<span class="n">fullName</span><span class="p">(</span><span class="s2">&quot;Khaisa&quot;</span><span class="p">,</span><span class="s2">&quot;Zenuar&quot;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;masukan text :&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Banyaknya text uppercase adalah&quot;</span><span class="p">,</span><span class="n">cek_uppercase</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -14714,25 +14641,63 @@ Sebuah fungsi dapat menerima parameter ataupun argumen yang merupakan suatu nila
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#B. IOError</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;sample.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;File found!!!&#39;</span><span class="p">)</span>
+     
+<span class="k">except</span> <span class="ne">IOError</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;File not found!!!&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#C.NameError</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="n">yahahawahyu</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
 
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Khaisa Zenuar
-</pre>
+     </div>
 </div>
 </div>
-
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#D.ZeroDivisionError</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">/</span> <span class="mi">0</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
@@ -14742,20 +14707,16 @@ Sebuah fungsi dapat menerima parameter ataupun argumen yang merupakan suatu nila
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Parameter fungsi diperbolehkan menggunakan lebih dari 1, dimana paramater tersebut ada yang wajib harus diisi dan ada yang tidak harus diisi</p>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">param_1</span><span class="p">,</span> <span class="n">param_2</span><span class="p">,</span> <span class="n">param_3</span><span class="p">,</span><span class="o">....</span><span class="p">):</span>
-    <span class="n">Logic</span> <span class="n">Program</span>
-</pre></div>
-<p>Cara memanggil fungsi dengan menuliskan function_name diikuti kurung buka tutup () beserta parameter</p>
-<div class="highlight"><pre><span></span><span class="n">function_name</span><span class="p">(</span><span class="n">param_1</span><span class="p">,</span> <span class="n">param_2</span><span class="p">,</span> <span class="n">param_3</span><span class="p">)</span>
-</pre></div>
-<hr>
-Buatlah fungsi dengan nama maxValue yang mempunyai parameter "val_1","val_2" dan "val_3" yang bertujuan untuk mencari nilai terbesar dari 3 nilai tersebut
+<p>2.Jelaskan hal berikut: (score = 30)
+A. Exception Handling
+    Suatu mekanisme penanganan flow normal program karena terjadi exception dengan melanjutkan flow ke code block lainnya.
+B. Menangkap exception
+    Menangkap error yang terjadi misalnya ZeroDivisionError Dsb</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14763,12 +14724,12 @@ Buatlah fungsi dengan nama maxValue yang mempunyai parameter "val_1","val_2" dan
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">maxValue</span><span class="p">(</span><span class="n">val_1</span><span class="p">,</span><span class="n">val_2</span><span class="p">,</span><span class="n">val_3</span><span class="p">):</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">val_1</span><span class="p">,</span><span class="n">val_2</span><span class="p">,</span><span class="n">val_3</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-
-<span class="n">input_Val1</span><span class="p">,</span><span class="n">input_Val2</span><span class="p">,</span><span class="n">input_Val3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input Val 1 = &quot;</span><span class="p">)),</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input Val 2 = &quot;</span><span class="p">)),</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input Val 3 = &quot;</span><span class="p">))</span>
-<span class="n">maxValue</span><span class="p">(</span><span class="n">input_Val1</span><span class="p">,</span><span class="n">input_Val2</span><span class="p">,</span><span class="n">input_Val3</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#A. Exception Handling Example</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;abcde&#39;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tidak terdapat index 6 pada variable a&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14776,55 +14737,7 @@ Buatlah fungsi dengan nama maxValue yang mempunyai parameter "val_1","val_2" dan
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>4
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Parameter opsional digunakan pada fungsi dengan cara memberikan nilai default, artinya nilai parameter sudah diberikan terlebih dahulu tanpa dipanggil</p>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">param_1</span><span class="p">,</span> <span class="n">param_2</span><span class="p">,</span> <span class="n">param_3</span> <span class="o">=</span> <span class="s1">&#39;Nilai&#39;</span><span class="p">):</span>
-    <span class="n">Logic</span> <span class="n">Program</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Buatlah fungsi &quot;countCircleArea&quot; dengan 2 parameter yaitu &quot;phi&quot; dan &quot;diameter&quot; dimana parameter phi mempunyai nilai default 3.14</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14832,316 +14745,23 @@ Buatlah fungsi dengan nama maxValue yang mempunyai parameter "val_1","val_2" dan
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">countCircleArea</span><span class="p">(</span><span class="n">ruas</span><span class="p">,</span><span class="n">phi</span> <span class="o">=</span> <span class="mf">3.14</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot; luas lingkaran&quot;&quot;&quot;</span>
-    <span class="n">luas</span> <span class="o">=</span> <span class="n">phi</span><span class="o">*</span><span class="n">ruas</span><span class="o">*</span><span class="n">ruas</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">luas</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#B. Menangkap exception</span>
+<span class="sd">&quot;&quot;&quot;jika terjadi ZeroDivisionError&quot;&quot;&quot;</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;try untuk kondisi tidak error dan except untuk kondisi jika muncul error &quot;&quot;&quot;</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;masukkan nilai a &#39;</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;masukkan nilai b &#39;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;hasil a/b adalah&#39;</span><span class="p">,</span><span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">)</span>
+    
 
-<span class="n">ruasnya</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;masukan ruas lingkaranya = &#39;</span><span class="p">))</span>
-
-<span class="n">countCircleArea</span><span class="p">(</span><span class="n">ruasnya</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;jika input 0 dan menghasilkan error ZeroDivisionError maka akan di atasi dengan print(&quot;masukan angka selain 0&quot;)&quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;masukkan angka selain 0&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1256.0
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Fungsi dengan 2 Parameter opsional juga dapat dilakukan pada Python.</p>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">info</span><span class="p">(</span><span class="n">suhu</span><span class="p">,</span> <span class="n">daerah</span><span class="o">=</span><span class="s1">&#39;Sukabumi&#39;</span><span class="p">,</span> <span class="n">satuan</span> <span class="o">=</span> <span class="s1">&#39;Celcius&#39;</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Suhu sekarang di </span><span class="si">{</span><span class="n">daerah</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">suhu</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">satuan</span><span class="si">}</span><span class="s2"> &quot;</span><span class="p">)</span>
-</pre></div>
-<p>Adapun Cara memanggilnya</p>
-<div class="highlight"><pre><span></span><span class="n">info</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Cobalah fungsi tersebut pada area kode disini</span>
-<span class="k">def</span> <span class="nf">info</span><span class="p">(</span><span class="n">suhu</span><span class="p">,</span> <span class="n">daerah</span><span class="o">=</span><span class="s1">&#39;Sukabumi&#39;</span><span class="p">,</span> <span class="n">satuan</span> <span class="o">=</span> <span class="s1">&#39;Celcius&#39;</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Suhu sekarang di </span><span class="si">{</span><span class="n">daerah</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">suhu</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">satuan</span><span class="si">}</span><span class="s2"> &quot;</span><span class="p">)</span>
-    
-<span class="n">info</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Suhu sekarang di Sukabumi : 30 Celcius 
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1>Fungsi dengan Return Value</h1>
-<p>Yaitu fungsi dimana akhir dari programnya adalah nilai kembalian atau nilai balik. Artinya nilai dalam fungsi dapat ditampung lagi ke variabel lain untuk digunakan operasi lebih lanjut.</p>
-<p>Buatlah fungsi dengan return value yang digunakan untuk mengecek sebuah bilangan termasuk bilangan negatif, bilangan neteral(0) dan bilangan positif</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">FungsiReturn</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">val</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;netral&quot;</span>
-    <span class="k">elif</span> <span class="n">val</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;poisitif&quot;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;negatif&quot;</span>
-
-<span class="n">valinput</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;input the value =&#39;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">FungsiReturn</span><span class="p">(</span><span class="n">valinput</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>negatif
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3>Soal Latihan</h3>
-<ol>
-    <li>Buatlah fungsi untuk menjumlahkan total nilai dari list</li>
-    <li>Buatlah fungsi untuk mencari nilai terbesar dari sekumpulan list </li>
-    <li>Buatlah fungsi untuk menjumlahkan 2 buah list </li>
-</ol>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Soal 1</span>
-
-<span class="k">def</span> <span class="nf">TotalNilaiList</span><span class="p">(</span><span class="n">listnya</span><span class="p">):</span>
-    <span class="n">jumlah</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">listnya</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">jumlah</span>
-        
-<span class="n">yahalist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">70</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">90</span><span class="p">,</span><span class="mi">100</span><span class="p">]</span>
-
-<span class="n">TotalNilaiList</span><span class="p">(</span><span class="n">yahalist</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>550</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Soal 2</span>
-<span class="k">def</span> <span class="nf">TotalNilaiList</span><span class="p">(</span><span class="n">listnya</span><span class="p">):</span>
-    <span class="n">maxval</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">listnya</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">maxval</span>
-        
-<span class="n">yahalist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">70</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">90</span><span class="p">,</span><span class="mi">100</span><span class="p">]</span>
-
-<span class="n">TotalNilaiList</span><span class="p">(</span><span class="n">yahalist</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>100</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Soal 3</span>
-<span class="k">def</span> <span class="nf">TotalNilaiList</span><span class="p">(</span><span class="n">list1</span><span class="p">,</span><span class="n">list2</span><span class="p">):</span>
-    <span class="n">jumlah</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">list1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">list2</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">jumlah</span>
-        
-<span class="n">yahalist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">70</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">90</span><span class="p">,</span><span class="mi">100</span><span class="p">]</span>
-<span class="n">yahalist2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">110</span><span class="p">,</span><span class="mi">120</span><span class="p">,</span><span class="mi">130</span><span class="p">,</span><span class="mi">140</span><span class="p">,</span><span class="mi">150</span><span class="p">,</span><span class="mi">160</span><span class="p">,</span><span class="mi">170</span><span class="p">,</span><span class="mi">180</span><span class="p">,</span><span class="mi">190</span><span class="p">,</span><span class="mi">200</span><span class="p">]</span>
-
-<span class="n">TotalNilaiList</span><span class="p">(</span><span class="n">yahalist</span><span class="p">,</span><span class="n">yahalist2</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>2100</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div>
