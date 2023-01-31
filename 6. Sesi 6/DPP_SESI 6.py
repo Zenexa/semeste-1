@@ -78,19 +78,19 @@ elif olahraga_apa == '3':
     print(f'total kalori yang di dapat adalah {TotalBakarKalori} kalori')
 
 elif olahraga_apa == '4': 
-    TotalBakarKalori = (push_up + lari ) * menit
+    TotalBakarKalori = (push_up * menit) + (lari * menit)
     print(f'total kalori yang di dapat adalah {TotalBakarKalori} kalori')
 
 elif olahraga_apa == '5':
-    TotalBakarKalori = (push_up + plank ) * menit
+    TotalBakarKalori = (push_up * menit ) * (plank * menit)
     print(f'total kalori yang di dapat adalah {TotalBakarKalori} kalori')
 
 elif olahraga_apa == '6':
-    TotalBakarKalori = (push_up + plank + lari) * menit
+    TotalBakarKalori = (push_up * menit) + (plank * menit) + (lari * menit)
     print(f'total kalori yang di dapat adalah {TotalBakarKalori} kalori') 
 
 elif olahraga_apa == '7':
-    TotalBakarKalori = (lari + plank) * menit
+    TotalBakarKalori = (lari * menit) + (plank * menit)
     print(f'total kalori yang di dapat adalah {TotalBakarKalori} kalori')
 
 else:
